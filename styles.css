@@ -4,5 +4,9 @@
 }
 .two{
     background-color: whitesmoke;
-    height:240px;
+    height: 240px;
+}
+.three{
+    background-color: rgb(205, 201, 201);
+    height:200px;
 }
