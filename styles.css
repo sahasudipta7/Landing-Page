@@ -2,19 +2,35 @@
    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
 }
 .one{
+    padding: 30px;
+    padding-left: 100px;
     background-color: #1f2937;;
-    height:240px;
+    height:500px;
     color: white;
+}
+.flex-container{
+    display: flex;
+}
+.flex-container div {
+    
+    flex:1;
+}
+.button{
+    background-color: blue;
+    border: 2px solid white;
+    padding:5px;
+    width: 60px;
+    height:30px;
 }
 .two{
     background-color: whitesmoke;
-    height: 240px;
+    height: 500px;
 }
 .three{
     background-color: rgb(205, 201, 201);
-    height:200px;
+    height:400px;
 }
 .four{
     background-color: whitesmoke;
-    height: 150px;
+    height: 250px;
 }
